@@ -1,0 +1,7 @@
+<view class='main'>
+<view wx:for="{{card}}">
+  <view>{{item.id}}</view>
+  <view>{{item.name}}</view>
+  <view>{{item.credit_card_purpose.name}}</view>
+</view>
+</view>

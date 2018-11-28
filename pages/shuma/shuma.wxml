@@ -1,0 +1,34 @@
+<!--pages/shuma/shuma.wxml-->
+<view class='container'>
+  <view class='box'>
+    <view class='small-box' bindtap='details'>
+      <image src='/img/xiangjiao1.jpg'></image>
+      <text class='price'>￥ 332.25</text>
+      <text class='name'>黄金香蕉</text>
+    </view>
+
+    <view class='small-box' bindtap='details'>
+      <image src='/img/caomei2.jpg'></image>
+      <text class='price'>￥ 332.25</text>
+      <text class='name'>红玛瑙草莓</text>
+    </view>
+
+    <view class='small-box' bindtap='details'>
+      <image src='/img/s1.png'></image>
+      <text class='price'>￥ 332.25</text>
+      <text class='name'>商品名称</text>
+    </view>
+
+    <view class='small-box' bindtap='details'>
+      <image src='/img/s1.png'></image>
+      <text class='price'>￥ 332.25</text>
+      <text class='name'>商品名称</text>
+    </view>
+    
+    <view class='small-box' bindtap='details'>
+      <image src='/img/s1.png'></image>
+      <text class='price'>￥ 332.25</text>
+      <text class='name'>商品名称</text>
+    </view>
+  </view>
+</view>

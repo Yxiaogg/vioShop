@@ -1,0 +1,11 @@
+<!--pages/advertising/advertising.wxml-->
+<view class='main'>
+<view class='adv1'>
+  <image src='/img/adv.jpg' class='adv-img'></image>
+  <text class='tiaoguo' bindtap='cliadv'>跳过广告 {{miao}}</text>
+</view>
+<view>
+  <button>小黑杂货铺</button>
+  <text class='text2'>小黑出品，必属精品</text>
+</view>
+</view>

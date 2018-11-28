@@ -1,0 +1,65 @@
+/**index.wxss**/
+page { background-color: #DBDBDB; }
+.biaoqian{
+  background-color: white;
+  border: 1rpx solid #DBDBDB;
+}
+.biaoqian text{
+  display: inline-block;
+}
+#headimg{
+  margin-top: 16rpx;
+  height: 154rpx;
+}
+.headimg{
+  width: 121rpx;
+  height: 118rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  float: right;
+}
+#headimg text{
+  padding: 50rpx 0 0 25rpx;
+}
+/* 左边 */
+.ul-left{
+  height: 80rpx;
+  padding: 26rpx 0 0 25rpx;
+
+}
+/* 右边 */
+.ul-right {
+  color: #aaa;
+  float: right;
+  padding: 26rpx 20rpx 0 0;
+}
+/* 定位按钮 */
+.location{
+  width: 220rpx;
+  height: 57rpx;
+  float: right;
+  margin: 22rpx 20rpx 0 0;
+  line-height: 57rpx;
+  /* padding-top: 5rpx; */
+  /* height: 50rpx; */
+}
+
+#gengduo{
+  margin-top: 50rpx;
+}
+#big{
+  font-size: 60rpx;
+}
+
+
+
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.usermotto {
+  margin-top: 200px;
+}

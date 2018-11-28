@@ -1,0 +1,56 @@
+<view class="main">
+    <swiper indicator-dots="true" autoplay="true" interval="{{interval}}" duration="{{duration}}" circular="true" class='swiper-box'>
+        <block wx:for="{{imgs}}" wx:key="{{index}}">
+            <swiper-item>
+                <image src="{{item}}" class="slide-image" width="100%"/>
+            </swiper-item>
+        </block>
+    </swiper>
+    <view class="search">
+        <navigator url="../search/search">
+            <view class="search-text">
+                <icon id='search' type="search" size="16"></icon>
+                搜 索
+            </view>
+        </navigator>
+    </view>
+<view class='choose'>
+  <view class='icon' bindtap='shuma'>
+    <image class='iconImg' src='/img/shuma.png'></image>
+    <text>数码</text>
+  </view>
+  <view class='icon' bindtap='fushi'>
+    <image class='iconImg' src='/img/fushi.png'></image>
+    <text>服饰</text>
+  </view>
+  <view class='icon' bindtap='canyin'>
+    <image class='iconImg' src='/img/canyin.png'></image>
+    <text>餐饮</text>
+  </view>
+  <view class='icon' bindtap='lingshi'>
+    <image class='iconImg' src='/img/lingshi.png'></image>
+    <text>零食</text>
+  </view>
+</view>
+ <view class="selected">
+        <view class="select-title"><text>精选主题</text></view>
+        <view class="select-top">
+            <view class="select-top-small">
+                <navigator url="list/list">
+                    <image src="/img/s1.png"></image>
+                </navigator>
+            </view>
+            <view class="select-top-small">
+                <navigator url="list/list">
+                    <image src="/img/s2.png"></image>
+                </navigator>
+            </view>
+        </view>
+        <view class="select-bottom">
+            <navigator url="list/list">
+                <image src="/img/s3.png"></image>
+            </navigator>
+        </view>
+    </view>
+
+</view>

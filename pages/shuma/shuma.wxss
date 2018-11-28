@@ -1,0 +1,39 @@
+/* pages/shuma/shuma.wxss */
+.box{
+  width: 100%;
+  overflow: hidden;
+}
+.small-box{
+  width: 33.3333333%;
+  float: left;
+  height: 330rpx;
+  /* background: red; */
+  box-sizing: border-box;
+  border: 2rpx solid seashell;
+}
+.small-box image{
+  width: 90%;
+  height: 230rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #aaa;
+  text-align: center;
+  border-radius: 200rpx;
+  font-size: 30rpx;
+  margin-top: 12rpx;
+  margin-left: 14rpx;
+}
+.small-box text{
+  display: flex;
+}
+.price{
+  margin-top: 16rpx;
+  font-size: 22rpx;
+  margin-left: 12rpx;
+}
+.name{
+  font-size: 26rpx;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 18rpx;
+}

@@ -1,0 +1,37 @@
+<view class='main'>
+  <view wx:if="{{hasList}}">
+    <view class='goods-list'>
+      <view class='goods' wx:for="{{cars}}" wx:key="{{index}}">
+        <icon wx:if="{{item.selected}}" color='#CD2626' type='success_circle' bindtap="selectThis" class='icon' data-index="{{index}}"></icon>
+        <icon wx:else type='circle'class='icon' bindtap='selectThis' data-index="{{index}}"></icon>
+        <image src='{{item.image}}' class='goods-img'></image>
+        <text class='goods-name'>{{item.name}}</text>
+        <text class='price'>￥{{item.price}}</text>
+        <view class='btn-box'>
+          <button class='jian' bindtap='jian' data-index="{{index}}">-</button>
+          <text class='goods-num' data-index="{{index}}">{{item.num}}</text>
+          <button class='jia' bindtap='addCount' data-index="{{index}}">+</button>
+          <button class='del' bindtap='del' data-index="{{index}}">x</button>
+        </view>
+      </view>
+    </view>
+<!-- wx:for="{{cars}}" wx:key="{{index}}"  -->
+
+    <view class='footer'>
+      <view class='footer-left'>
+          <icon wx:if="{{selectAllStatus}}" type="success_circle" color="#fff" bindtap="selectAll" color='#CD2626'/>
+          <icon wx:else type="circle" color="#fff" bindtap="selectAll"/>
+          <text>全选</text>
+      </view>
+      <view class='footer-right'>
+
+        <text>总计:</text>
+        <text>￥{{totalPrice}}</text>
+         <text class='jiesuan'>结算</text>         
+      </view>
+    </view>
+  </view>
+  <view wx:else>
+    <view class='no-data'>亲，您的购物车是空的哦~</view>
+  </view>
+</view>

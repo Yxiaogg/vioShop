@@ -1,0 +1,41 @@
+/* pages/advertising/advertising.wxss */
+.adv1{
+  width: 100%;
+  height: 900rpx;
+  background: url('/img/ba3.png') no-repaeat 0 0;
+  background-size: contain;
+}
+.adv-img{
+  width: 100%;
+  height: 900rpx;
+  position: absolute;
+}
+.tiaoguo{
+  font-size: 25rpx;
+  background-color: wheat;
+  border-radius: 80rpx;
+  display: inline-block;
+  margin-left: 10rpx;
+  position: absolute;
+  z-index: 999;
+  right: 25rpx;
+  top: 850rpx;
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+}
+button{
+    border-radius: 18rpx;
+    width: 220rpx;
+    background-color: #EECBAD;
+    color: #8B5742;
+    margin-top: 38rpx;
+    font-size: 33rpx;
+}
+.text2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 23rpx;
+    font-size: 28rpx;
+}

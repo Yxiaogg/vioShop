@@ -1,0 +1,74 @@
+/* 轮播图样式 */
+swiper {
+    height: 621.5rpx;
+}
+swiper-item image {
+    width: 100%;
+    height: 100%;
+}
+
+text{
+  display: flex;
+  margin-left: 16rpx;
+}
+.name{
+  font-size: 36rpx;
+  margin-top: 18rpx;
+}
+.describe{
+  font-size: 26rpx;   
+  margin-top: 10rpx;
+}
+
+/* 底部样式 */
+.add{
+  width: 100%;
+  height: 80rpx;
+  position: fixed;
+  bottom: 0;
+  /* background-color: red; */
+}
+.add image{
+  width: 60rpx;
+  height: 60rpx;
+  padding: 6.5rpx 0;
+  margin-left: 20rpx;
+  margin-right: 30rpx;
+}
+.add button{
+  width: 80%;
+  border-radius: 20rpx;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10rpx 10rpx 0 0;
+  height: 60rpx;
+  line-height: 60rpx;
+  background-color: #FF7F00;
+   background: linear-gradient(to right,#FFFACD,#FF7F00);
+
+}
+
+/* 价格 */
+.price{
+  margin-top: 18rpx;
+  margin-bottom: 22rpx;
+}
+#icon,#jiage{
+  display: inline-block;
+  color: red;
+  
+}
+#icon{
+  font-size: 30rpx;
+}
+#jiage{
+  font-size: 40rpx;
+  }
+
+  /* 商品详情 */
+  .fenge{
+    width: 100%;
+    height: 20rpx;
+    background-color: #EDEDED;
+    margin-left: 0;
+  }

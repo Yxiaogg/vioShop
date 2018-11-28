@@ -1,0 +1,24 @@
+<view class="main">
+    <swiper indicator-dots="true" autoplay="true" interval="{{interval}}" duration="{{duration}}" circular="true" class='swiper-box'>
+        <block wx:for="{{imgs}}" wx:key="{{index}}">
+            <swiper-item>
+                <image src="{{item}}" class="slide-image" width="100%"/>
+            </swiper-item>
+        </block>
+    </swiper>
+    <view>
+      <text class='name'>进口香蕉（份）（约1kg）</text>
+      <text class='describe'>商品描述，我很黄，但不暴力</text>
+    </view>
+    <view class='price'>
+      <text id='icon'>￥<text id='jiage'>8.99</text></text>
+    </view>
+    <view class='xiangqing'>
+      <text class='fenge'></text>
+    </view>
+
+    <view class='add'>
+      <image src='/img/tab33.png'></image>
+      <button>加入购物车</button>
+    </view>
+</view>

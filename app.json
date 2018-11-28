@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/car/car",
+    "pages/user/user",
+    
+    "pages/advertising/advertising",
+    "pages/index/index",
+    "pages/category/category",
+    "pages/search/search",
+    "pages/maps/maps",
+    "pages/shuma/shuma",
+    "pages/details/details"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#5FD9CD",
+    "navigationBarTitleText": "小黑杂货铺",
+    "navigationBarTextStyle": "write",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "backgroundColor": "#5FD9CD",
+    "list": [{   
+      "pagePath": "pages/index/index",
+      "text": "",
+      "iconPath": "img/tab1.png",
+      "selectedIconPath": "img/tab11.png"
+    },
+    {
+            "pagePath": "pages/category/category",
+            "text": "",
+            "iconPath": "img/tab2.png",
+            "selectedIconPath": "img/tab22.png"
+    },
+        {
+          "pagePath": "pages/car/car",
+          "text": "",
+          "iconPath": "img/tab3.png",
+          "selectedIconPath": "img/tab33.png"
+        },
+        {
+          "pagePath": "pages/user/user",
+          "text": "",
+          "iconPath": "img/tab4.png",
+          "selectedIconPath": "img/tab44.png"
+        }
+    ]
+  },
+  "networkTimeout": {
+      "request": 10000,
+      "connectSocket": 10000,
+      "uploadFile": 10000,
+      "downloadFile": 10000
+  },
+  "debug":"true"
+}

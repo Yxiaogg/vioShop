@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class='main'>
+  <view class='biaoqian' id='headimg'>
+      <text>头像</text>
+      <image bindtap="bindViewTap" class="headimg" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+  </view>
+  <view class='biaoqian'>
+    <text  class='ul-left'>昵称</text>
+    <text class="ul-right">{{userInfo.nickName}}</text>
+  </view>
+  <view class='biaoqian'>
+    <text class='ul-left'>地区</text>
+    <text class='ul-right'>四川 成都</text>
+  </view>
+  <view class='biaoqian'>
+    <text class='ul-left'>定位</text>
+
+    <button wx:if="aaa" class='location' bindtap='getLocation'>我的位置</button>
+    <block wx:else>
+      <text class='ul-right'>青羊区</text>
+    </block>
+  </view>
+
+  <view class='biaoqian' id='gengduo'>
+    <text class='ul-left'>更多</text>
+    <text class='ul-right' id='big'>···</text>
+  </view>
+</view>

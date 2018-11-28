@@ -1,0 +1,112 @@
+.goods{
+  width: 100%;
+  height: 230rpx;
+  /* background: red; */
+  position: relative;
+  border: 1rpx solid silver;
+}
+.icon{
+   position: absolute;
+    left: 14rpx;
+    top: 80rpx;
+    width: 45rpx;
+    height: 45rpx;
+}
+.goods-img{
+   width: 180rpx;
+  height: 180rpx;
+  /* border-radius: 200rpx; */
+  margin-top: 12rpx;
+  margin-left: 74rpx;
+}
+.goods-name{
+    display: inline-block;
+    line-height: 50rpx;
+    overflow: hidden;
+    position: fixed;
+    margin: 40rpx 0 0 30rpx;
+}
+.price{
+  display: inline-block;
+  float: right;
+  margin: 40rpx 30rpx 0 0;
+}
+.btn-box button{
+  width: 60rpx;
+  height: 60rpx;
+  line-height: 66rpx;
+  display: inline-block;
+    /* border-radius: 20rpx; */
+}
+.goods-num{
+  display:inline-block;
+  border:1rpx;
+  width:80rpx;
+  height:60rpx;
+  line-height:60rpx;
+  text-align:center;
+  vertical-align:top;
+
+}
+.btn-box{
+  width: 410rpx;
+  position: absolute;
+  left: 280rpx;
+  bottom: 20rpx;
+}
+.del{
+  float: right;
+}
+
+
+/* 底部footer相关 */
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 90rpx;
+    line-height: 90rpx;
+    padding:0 0 0 10rpx;
+    box-sizing: border-box;
+    background: rgb(233, 233, 233);
+    font-size: 32rpx;
+}
+.footer-left{
+  width: 133rpx;
+  float: left;
+  margin-left:10rpx; 
+}
+.footer-left icon{
+  vertical-align:top;
+  padding: 20rpx 0;
+}
+.footer-left text{
+  float: right;
+}
+
+.footer-right{
+  width: 340rpx;
+  float: right;
+  margin-left:10rpx; 
+}
+/* .footer-right button{
+  float: right;
+  width: 100rpx;
+} */
+.jiesuan{
+  width: 120rpx;
+  background: #CD2626;
+  float: right;
+
+  text-align:center;
+}
+
+
+
+/* 没有数据时显示 */
+.no-data{
+  padding: 40rpx 0;
+  color: #999;
+  text-align: center;
+}
